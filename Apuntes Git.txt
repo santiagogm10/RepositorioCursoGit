@@ -1,0 +1,20 @@
+ ***************** GIT ******************
+3 Estados en Git
+1. Working Directory = Directorio de trabajo (modified) Modificado
+2. Staging Area = Área de preparación (Staged) Preparado
+3. Local Repository = Repositorio local (Committed) Confirmado
+
+git add -> Para pasar de WD (1) a SA (2)
+git add --all
+
+git commit -> SA a LR
+
+- git config
+- git init = Inicializar un repositorio
+
+Práctica
+
+git add <archivo.txt> , git add -all
+git status
+git commit -m "<comentario>" , git commit (se debe ingresar comentario manual en el editor de texto Vim) 
+git log , Muestra el historial de versiones de código
